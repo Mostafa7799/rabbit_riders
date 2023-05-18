@@ -48,7 +48,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
           },
         ),
       )
-      ..loadRequest(Uri.parse('https://www.rabbitriders.com/driver/index.php?do=signin'));
+      ..loadRequest(Uri.parse('https://www.rabbitriders.com/user/index.php'));
     return Scaffold(
       body: WebViewWidget(
         controller: controller,
