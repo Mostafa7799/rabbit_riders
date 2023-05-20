@@ -2,7 +2,7 @@
     package="com.example.rabbit_riders">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="rabbit_riders"
+        android:label="Rabbit Driver"
         android:name="${applicationName}"
         android:icon="@mipmap/rabbit">
         <activity
