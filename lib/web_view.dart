@@ -41,9 +41,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
           onPageFinished: (url) {},
           onWebResourceError: (WebResourceError error) {},
           onNavigationRequest: (NavigationRequest request) async {
-            if (request.url.startsWith('https://www.rabbitriders.com/')) {
-              return NavigationDecision.prevent;
-            }
+          
             return NavigationDecision.navigate;
           },
         ),

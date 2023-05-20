@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Rabbit Riders</string>
+	<string>Rabbit Driver</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,6 +32,13 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+    	<key>NSAllowsArbitraryLoads</key>
+    	<true/>
+    	<key>NSAllowsArbitraryLoadsInWebContent</key>
+    	<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -47,5 +54,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
 </dict>
 </plist>
